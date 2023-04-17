@@ -8,4 +8,9 @@ def main(x1,x2,x3):
     Returns:
         str: return answer.
     """
-    return 
+
+    return  '"['+x1+", "+x2+", "+x3+']"'
+x1=input()
+x2=input()
+x3=input()
+print(main(x1,x2,x3))
